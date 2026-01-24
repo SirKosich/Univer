@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-int main(){
+std::vector<std::vector<int>> MultiplicationMatrix(){
  int k,n,m;
  std::cin >> n >> k >> m;
  
@@ -23,7 +23,7 @@ int main(){
    }
  }
  
- for (int i = 0; i < n; i++){
+/* for (int i = 0; i < n; i++){
   for (int j = 0; j < m; j++){
     for (int l = 0; l < k; l++){
       C[i][j] += A[i][l] * B[l][j];
@@ -31,7 +31,8 @@ int main(){
     std::cout << C[i][j] << " "; 
    }
   std::cout << "\n";
- } 
+ } */
  
- return 0;
+ return C;
 }
+
