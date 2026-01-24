@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-int main(){
+std::vector<int> VectorCalculate(){
 	int k, n;
 	std::cout << "Введите количество элементов вектора (эта величина также отвечает за кол-во строк в матрице), также введите кол-во столбцов в матрице" << std::endl;
 	std::cin >> k >> n;
@@ -34,3 +34,4 @@ int main(){
 	
 	return 0;
 }
+
