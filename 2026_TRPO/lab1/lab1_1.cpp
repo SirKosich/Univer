@@ -32,6 +32,7 @@ std::vector<int> VectorCalculate(){
 		std::cout << C[i] << " ";
 	}
 	
-	return 0;
+	return С;
 }
+
 
