@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include "mathoperate.h"
 
 void exponentiation(){
     
@@ -20,11 +21,4 @@ void square(){
     std::cin >> a >> b;
     
     std::cout << "Корень " << b << " степени из числа " << a << " = " << pow(a, (1/b)) << std::endl;    
-}
-
-int main(){
-    exponentiation();
-    square();
-    
-    return 0;
 }

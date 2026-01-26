@@ -1,7 +1,8 @@
 #include <iostream>
 #include <vector>
+#include "mathoperate.h"
 
-std::vector<std::vector<int>> MultiplicationMatrix(){
+void MultiplicationMatrix(){
  int k,n,m;
  std::cin >> n >> k >> m;
  
@@ -23,7 +24,7 @@ std::vector<std::vector<int>> MultiplicationMatrix(){
    }
  }
  
-/* for (int i = 0; i < n; i++){
+ for (int i = 0; i < n; i++){
   for (int j = 0; j < m; j++){
     for (int l = 0; l < k; l++){
       C[i][j] += A[i][l] * B[l][j];
@@ -31,8 +32,5 @@ std::vector<std::vector<int>> MultiplicationMatrix(){
     std::cout << C[i][j] << " "; 
    }
   std::cout << "\n";
- } */
- 
- return C;
+ }
 }
-
